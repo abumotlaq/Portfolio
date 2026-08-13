@@ -2,7 +2,8 @@ import {
   FiCheck, FiChevronDown, FiChevronUp, FiChevronLeft, FiChevronRight, FiMoreHorizontal,
   FiX, FiSearch, FiMoon, FiSun, FiMenu, FiArrowLeft, FiArrowRight, FiArrowDown, FiDownload, FiMail, FiExternalLink, FiStar, FiCode, FiLayout, FiZap, FiArrowUpRight, FiMinus, FiMoreVertical, FiCircle, FiSend
 } from 'react-icons/fi';
-import { FaGithub, FaLinkedin, FaTwitter, FaRocket, FaBriefcase, FaGraduationCap, FaAward, FaPalette, FaServer } from 'react-icons/fa';
+
+import { FaGithub, FaLinkedin, FaXTwitter, FaRocket, FaBriefcase, FaGraduationCap, FaAward, FaPalette, FaServer } from 'react-icons/fa6';
 
 // Export names expected by the existing codebase
 export const Check = FiCheck;
@@ -35,7 +36,7 @@ export const Send = FiSend;
 
 export const Github = FaGithub;
 export const Linkedin = FaLinkedin;
-export const Twitter = FaTwitter;
+export const Twitter = FaXTwitter;
 export const Rocket = FaRocket;
 export const Briefcase = FaBriefcase;
 export const GraduationCap = FaGraduationCap;

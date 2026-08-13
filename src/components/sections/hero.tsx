@@ -30,7 +30,7 @@ export function Hero() {
             <a href="#projects" className="inline-flex items-center gap-2 rounded-full btn-accent px-6 py-3 text-sm font-medium">
               View my work <ArrowDown size={16} />
             </a>
-            <a href="/resume.pdf" className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-medium hover:border-accent transition-colors">
+            <a href="/Osama_Abu_Motlaq-11_CV.docx" download className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-medium hover:border-accent transition-colors">
               <Download size={16} /> Resume
             </a>
             <a href="#contact" className="inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm text-muted-foreground hover:text-foreground">
