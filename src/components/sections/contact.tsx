@@ -1,35 +1,31 @@
+"use client";
+
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
 import { toast } from "sonner";
 import { Send, Github, Linkedin, Twitter, Mail } from "@/lib/lucide-shim";
-import { supabase } from "@/integrations/supabase/client";
+import { contactMessageSchema, type ContactMessageInput } from "@/lib/contact-schema";
+import { submitContactMessage } from "@/src/actions/contact";
 import { SectionHeader } from "./about";
 
-const schema = z.object({
-  name: z.string().trim().min(1, "Required").max(100),
-  email: z.string().trim().email("Invalid email").max(255),
-  subject: z.string().trim().min(1, "Required").max(200),
-  message: z.string().trim().min(5, "Too short").max(5000),
-});
-
-type FormValues = z.infer<typeof schema>;
+type FormValues = ContactMessageInput;
 
 export function Contact() {
   const [loading, setLoading] = useState(false);
-  const { register, handleSubmit, reset, formState: { errors } } = useForm<FormValues>({ resolver: zodResolver(schema) });
+  const { register, handleSubmit, reset, formState: { errors } } = useForm<FormValues>({
+    resolver: zodResolver(contactMessageSchema),
+  });
 
   async function onSubmit(values: FormValues) {
     setLoading(true);
-    const { error } = await supabase.from("contact_messages").insert(values);
+    const result = await submitContactMessage(values);
     setLoading(false);
 
-   if (error) {
-  console.log(error);
-  toast.error(error.message);
-  return;
-}
+    if (!result.ok) {
+      toast.error(result.error);
+      return;
+    }
 
     toast.success("Thanks — I'll get back to you soon.");
     reset();
