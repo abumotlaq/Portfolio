@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     title: "Admin Dashboard",
     description: "Reusable admin shell with charts, tables, filters, and role-based access.",
-    tech: ["Next.js", "TypeScript", "Recharts"],
+    tech: ["Next.js", "TypeScript", "Tailwind" ],
     category: "Dashboard",
      github: "https://github.com/AbuMotlaq/admin-dashboard",
   },
