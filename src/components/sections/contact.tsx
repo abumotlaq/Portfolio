@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import { Send, Github, Linkedin, Twitter, Mail } from "@/lib/lucide-shim";
 import { contactMessageSchema, type ContactMessageInput } from "@/lib/contact-schema";
-import { submitContactMessage } from "@/src/actions/contact";
+import { submitContactMessage } from "@/actions/contact";
 import { SectionHeader } from "./about";
 
 type FormValues = ContactMessageInput;
