@@ -2,8 +2,8 @@ import { Briefcase, GraduationCap, Award } from "@/lib/lucide-shim";
 import { SectionHeader } from "./about";
 
 const experiences = [
-  { role: "Full Stack Developer", org: "Freelance", period: "2023 — Now", desc: "Building web apps and dashboards for clients across the region." },
-  { role: "Frontend Developer", org: "Various projects", period: "2022 — 2023", desc: "Shipped React interfaces with strong attention to design and DX." },
+  { role: "Full Stack Developer", org: "Freelance", period: "2026 — Now", desc: "Building web apps and dashboards for clients across the region." },
+  { role: "Frontend Developer", org: "Various projects", period: "2024 — 2025", desc: "Shipped React interfaces with strong attention to design and DX." },
 ];
 
 const education = [
@@ -13,7 +13,6 @@ const education = [
 const certificates = [
   { name: "Advanced React & TypeScript", issuer: "Self-directed" },
   { name: "Modern Backend with Node.js", issuer: "Self-directed" },
-  { name: "UI/UX Fundamentals", issuer: "Self-directed" },
 ];
 
 export function Timeline() {

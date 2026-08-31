@@ -19,7 +19,7 @@ const posts = [
   {
     title: "I Learned React Before I Truly Understood JavaScript — Here's What Happened",
     tag: "React",
-    date: "Mar 2026",
+    date: "Aug 2026",
     read: "5 min",
     url: "https://dev.to/abumotlaq/i-learned-react-before-i-truly-understood-javascript-heres-what-happened-33cg",
   },

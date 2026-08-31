@@ -210,4 +210,5 @@ I'm interested in building products that combine thoughtful UI design with maint
 
 ## License
 
+<<<<<<< Updated upstream
 This project is for personal portfolio and demonstration purposes.
