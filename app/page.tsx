@@ -3,7 +3,6 @@
 import React from "react";
 import { SiteHeader } from "@/components/site-header";
 import { Hero } from "@/components/sections/hero";
-import { Marquee } from "@/components/sections/marquee";
 import { About } from "@/components/sections/about";
 import { Skills } from "@/components/sections/skills";
 import { Projects } from "@/components/sections/projects";
@@ -27,7 +26,6 @@ export default function Page() {
           <SiteHeader />
           <main>
             <Hero />
-            <Marquee />
             <About />
             <Projects />
             <Skills />

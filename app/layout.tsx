@@ -2,7 +2,7 @@ import "../src/style.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Osama Abu Motlaq — Full Stack Developer",
+  title: "Osama Abu Motlaq",
   description:
     "Portfolio of Osama Abu Motlaq — Full Stack Developer specializing in React, Next.js, and modern web experiences.",
   openGraph: {

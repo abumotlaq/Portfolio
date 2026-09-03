@@ -18,15 +18,15 @@ const projects: Project[] = [
     description: "A minimal, keyboard-first task manager with local persistence, tags, and quick filters.",
     tech: ["React", "Vite"],
     category: "Web App",
-    github: "https://github.com/AbuMotlaq",
-    featured: true,
+    github: "https://github.com/abumotlaq/TodoList",
+    featured: false,
   },
   {
     title: "Portfolio ",
     description: "This very site. A black-and-white editorial portfolio with a full custom design system.",
     tech: ["React","Next.js", "Tailwind"],
     category: "Website",
-     github: "https://github.com/AbuMotlaq/portfolio",
+     github: "https://github.com/abumotlaq/portfolio",
     featured: true,
   },
   {
@@ -34,14 +34,14 @@ const projects: Project[] = [
     description: "Reusable admin shell with charts, tables, filters, and role-based access.",
     tech: ["Next.js", "TypeScript", "Tailwind" ],
     category: "Dashboard",
-     github: "https://github.com/AbuMotlaq/admin-dashboard",
+     github: "https://github.com/abumotlaq/admin-dashboard",
   },
   {
     title: "E-commerce UI",
     description: "Storefront with cart, checkout flow, and search — powered by a headless backend.",
     tech: ["ReactJs", "Tailwind CSS"],
     category: "E-commerce",
-     github: "https://github.com/AbuMotlaq/e-commerce",
+     github: "https://github.com/abumotlaq/e-commerce",
   },
 ];
 

@@ -6,7 +6,7 @@ export function About() {
           <div className="mt-16 grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-7 space-y-5 text-lg leading-relaxed text-muted-foreground">
               <p>
-                I'm a Full Stack Developer based in Gaza, Palestine. I build web
+                I'm a Frontend Developer based in Gaza, Palestine. I build web
                 products end-to-end — designing thoughtful interfaces, writing
                 maintainable code, and shipping features that feel effortless to
                 the people who use them.
@@ -22,9 +22,8 @@ export function About() {
               </p>
             </div>
             <div className="lg:col-span-5 grid grid-cols-2 gap-4">
-              <Stat n="3+" l="Years building for the web" />
-              <Stat n="40+" l="Projects delivered" />
-              <Stat n="15+" l="Happy clients" />
+              <Stat n="2+" l="Years building for the web" />
+              <Stat n="10+" l="Projects delivered" />
               <Stat n="∞" l="Cups of coffee" />
             </div>
           </div>

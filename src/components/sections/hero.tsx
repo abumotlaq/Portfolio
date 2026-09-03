@@ -30,7 +30,7 @@ export function Hero() {
             <a href="#projects" className="inline-flex items-center gap-2 rounded-full btn-accent px-6 py-3 text-sm font-medium">
               View my work <ArrowDown size={16} />
             </a>
-            <a href="/Osama_Abu_Motlaq-11_CV.docx" download className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-medium hover:border-accent transition-colors">
+            <a href="/Osama_Abu_Motlaq_CV_Resume.pdf" download className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-medium hover:border-accent transition-colors">
               <Download size={16} /> Resume
             </a>
             <a href="#contact" className="inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm text-muted-foreground hover:text-foreground">
@@ -38,7 +38,7 @@ export function Hero() {
             </a>
           </div>
           <div className="mt-10 flex items-center gap-5 text-muted-foreground">
-            <a href="https://github.com/AbuMotlaq" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-accent transition-colors"><Github size={20} /></a>
+            <a href="https://github.com/abumotlaq" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-accent transition-colors"><Github size={20} /></a>
             <a href="https://linkedin.com/in/osamaabumotlaq" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={20} /></a>
             <a href="https://x.com/abumotlaq1" target="_blank" rel="noreferrer" aria-label="X" className="hover:text-accent transition-colors"><Twitter size={20} /></a>
             <span className="h-px w-16 bg-border" />

@@ -40,8 +40,8 @@ export function Contact() {
             <a href="mailto:oabumotlaq@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
               <Mail size={16} /> oabumotlaq@gmail.com
             </a>
-            <a href="https://github.com/AbuMotlaq" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
-              <Github size={16} /> github.com/AbuMotlaq
+            <a href="https://github.com/abumotlaq" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
+              <Github size={16} /> github.com/abumotlaq
             </a>
             <a href="https://linkedin.com/in/osamaabumotlaq" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
               <Linkedin size={16} /> linkedin.com/in/osamaabumotlaq
