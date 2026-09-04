@@ -203,8 +203,8 @@ I'm interested in building products that combine thoughtful UI design with maint
 
 * **Portfolio:** https://osamaabumotlaq.vercel.app
 * **GitHub:** https://github.com/abumotlaq
-* **LinkedIn:** https://www.linkedin.com/in/osama-abumotlaq/
-* **X:** https://x.com/OsamaAbuMotlaq
+* **LinkedIn:** https://www.linkedin.com/in/osamaabumotlaq/
+* **X:** https://x.com/abumotlaq1
 
 ---
 
